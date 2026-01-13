@@ -1,5 +1,4 @@
-
-
+ #tic tac toe game
 board = [" " for _ in range(9)]
 
 def print_board():
@@ -58,5 +57,6 @@ def game():
         current_player = "O" if current_player == "X" else "X"
 
 game()
+
 
 
