@@ -1,4 +1,4 @@
-# Tic Tac Toe Game (Console)
+# Tic Tac Toe Game 
 
 board = [" " for _ in range(9)]
 
@@ -58,3 +58,4 @@ def game():
         current_player = "O" if current_player == "X" else "X"
 
 game()
+
